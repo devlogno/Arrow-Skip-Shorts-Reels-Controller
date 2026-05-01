@@ -41,7 +41,7 @@ For Chrome Web Store transparency, here is why I need each permission:
 3. **`contextMenus`**:
    - **Why:** Enables the "Right-click to add this site" feature, making it much faster to enable controls on new websites without opening the popup.
 
-4. **`host_permissions` (`*://*/*`)**:
+4. **`host_permissions`**:
    - **Why:** I include standard permissions for YouTube, Instagram, TikTok, and Facebook. The broad `*://*/*` permission is necessary to allow the **"Add Custom Site"** feature to work. It ensures the extension can function on any domain you choose to add.
 
 ---
