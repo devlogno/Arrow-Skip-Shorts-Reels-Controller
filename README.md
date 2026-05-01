@@ -13,15 +13,7 @@ A high-performance Chrome extension designed to give you precise control over sh
 - **Midnight Orange Theme:** A modern, high-contrast UI that looks premium in both light and dark modes.
 - **Custom Site Support:** Add any website that uses HTML5 video and customize its behavior.
 - **Precision Steppers:** Granular control over speed (0.1x increments) and skip duration.
-
----
-
-## 🛠️ Installation
-1. Open Chrome and go to `chrome://extensions`
-2. Enable **Developer mode** (top-right toggle).
-3. Click **"Load unpacked"**.
-4. Select the `short-video-skip` folder.
-
+  
 ---
 
 ## 📖 Keyboard Shortcuts (Default)
@@ -62,8 +54,3 @@ Arrow Skip respects your privacy:
 
 ---
 
-## 🎨 Build Instructions (Developers)
-The UI uses Tailwind CSS. To rebuild the styles after modifying the popup:
-```bash
-npx tailwindcss -c popup/tailwind.config.js -i popup/tailwind.input.css -o popup/styles.css --minify
-```
