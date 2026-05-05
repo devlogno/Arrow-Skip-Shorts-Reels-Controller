@@ -16,6 +16,11 @@ A high-performance Chrome extension designed to give you precise control over sh
   
 ---
 
+## 🔗 Links
+* **[Download on the Chrome Web Store](https://chromewebstore.google.com/detail/arrow-skip-shorts-reels-c/hnladddlgkmhakgegpjgnofjgdfnkapf)**
+* **[Read our Privacy Policy](./PRIVACY.md)**
+* **[Report an Issue or Request a Feature](../../issues)**
+
 ## 📖 Keyboard Shortcuts (Default)
 | Key | Action |
 |-----|--------|
