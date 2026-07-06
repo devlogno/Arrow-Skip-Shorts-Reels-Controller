@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "Arrow Skip: Контролер Shorts та Reels"
+  },
+  "extDescription": {
+    "message": "Пропуск, перемотка та керування швидкістю в YouTube Shorts, TikTok та Reels. Фіксація швидкості. Точне керування стрілками."
+  },
+  "resetBtn": {
+    "message": "Скинути"
+  },
+  "resetTitle": {
+    "message": "Скинути до стандартних налаштувань"
+  },
+  "headerSub": {
+    "message": "← → пошук · швидкість · гучність"
+  },
+  "tabSites": {
+    "message": "🎬 Сайти"
+  },
+  "tabShortcuts": {
+    "message": "⌨️ Гарячі клавіші"
+  },
+  "tabAdd": {
+    "message": "✚ Додати"
+  },
+  "autoScroll": {
+    "message": "Автопрокрутка"
+  },
+  "autoScrollSub": {
+    "message": "Наступне відео після закінчення"
+  },
+  "defaultSkip": {
+    "message": "Пропуск за замовчуванням"
+  },
+  "perKeyPress": {
+    "message": "за одне натискання"
+  },
+  "scInstructions": {
+    "message": "Натисніть на клавішу, потім введіть комбінацію"
+  },
+  "speedStep": {
+    "message": "Крок швидкості"
+  },
+  "speedStepSub": {
+    "message": "Зміна швидкості за натискання"
+  },
+  "maxSpeed": {
+    "message": "Макс. швидкість"
+  },
+  "maxSpeedSub": {
+    "message": "Обмеження швидкості (мін. 1×)"
+  },
+  "volumeStep": {
+    "message": "Крок гучності"
+  },
+  "addTabTitle": {
+    "message": "Додати новий сайт"
+  },
+  "cancel": {
+    "message": "Скасувати"
+  },
+  "label": {
+    "message": "Назва"
+  },
+  "hostname": {
+    "message": "Домен"
+  },
+  "pathContains": {
+    "message": "Шлях містить"
+  },
+  "optional": {
+    "message": "(необов'язково)"
+  },
+  "skipSeconds": {
+    "message": "Секунди пропуску"
+  },
+  "addSiteBtn": {
+    "message": "Додати сайт"
+  },
+  "placeholderLabel": {
+    "message": "напр. Snapchat"
+  },
+  "placeholderHost": {
+    "message": "напр. snapchat.com"
+  },
+  "placeholderPath": {
+    "message": "напр. /story"
+  },
+  "ctxAddSite": {
+    "message": "Додати до Arrow Skip"
+  },
+  "hudAutoScrolling": {
+    "message": "Автопрокрутка..."
+  },
+  "hudAutoScrollOn": {
+    "message": "Автопрокрутка УВІМК"
+  },
+  "hudAutoScrollOff": {
+    "message": "Автопрокрутка ВИМК"
+  },
+  "errLabelRequired": {
+    "message": "Назва обов'язкова"
+  },
+  "errHostRequired": {
+    "message": "Домен обов'язковий"
+  },
+  "errSiteExists": {
+    "message": "Цей сайт вже є у списку"
+  },
+  "seekBack": {
+    "message": "Назад"
+  },
+  "seekForward": {
+    "message": "Вперед"
+  },
+  "speedUp": {
+    "message": "Прискорити"
+  },
+  "speedDown": {
+    "message": "Уповільнити"
+  },
+  "volumeUp": {
+    "message": "Гучніше"
+  },
+  "volumeDown": {
+    "message": "Тихіше"
+  },
+  "edit": {
+    "message": "Редагувати"
+  },
+  "remove": {
+    "message": "Видалити"
+  },
+  "editBtn": {
+    "message": "Редагувати"
+  },
+  "skip": {
+    "message": "Пропуск"
+  },
+  "defaultSpeed": {
+    "message": "Стандартна швидкість"
+  },
+  "editSite": {
+    "message": "Редагувати сайт"
+  },
+  "saveChanges": {
+    "message": "Зберегти зміни"
+  },
+  "defaultPrefix": {
+    "message": "стандартно"
+  }
+}

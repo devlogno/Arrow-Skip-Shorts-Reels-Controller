@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "Arrow Skip: Controler Shorts și Reels"
+  },
+  "extDescription": {
+    "message": "Sari, caută și controlează viteza pe YouTube Shorts, TikTok și Reels. Viteză fixă. Control precis cu tastele săgeată."
+  },
+  "resetBtn": {
+    "message": "Resetare"
+  },
+  "resetTitle": {
+    "message": "Resetare la valorile implicite"
+  },
+  "headerSub": {
+    "message": "← → caută · viteză · volum"
+  },
+  "tabSites": {
+    "message": "🎬 Site-uri"
+  },
+  "tabShortcuts": {
+    "message": "⌨️ Comenzi"
+  },
+  "tabAdd": {
+    "message": "✚ Adaugă"
+  },
+  "autoScroll": {
+    "message": "Auto Scroll"
+  },
+  "autoScrollSub": {
+    "message": "Următorul video la final"
+  },
+  "defaultSkip": {
+    "message": "Săritură Implicită"
+  },
+  "perKeyPress": {
+    "message": "per apăsare"
+  },
+  "scInstructions": {
+    "message": "Apasă pe o tastă, apoi pe combinația dorită"
+  },
+  "speedStep": {
+    "message": "Pas Viteză"
+  },
+  "speedStepSub": {
+    "message": "Valoare adăugată la fiecare apăsare"
+  },
+  "maxSpeed": {
+    "message": "Viteză Maximă"
+  },
+  "maxSpeedSub": {
+    "message": "Viteza este limitată la această valoare (min 1×)"
+  },
+  "volumeStep": {
+    "message": "Pas Volum"
+  },
+  "addTabTitle": {
+    "message": "Adaugă Site Nou"
+  },
+  "cancel": {
+    "message": "Anulează"
+  },
+  "label": {
+    "message": "Etichetă"
+  },
+  "hostname": {
+    "message": "Hostname"
+  },
+  "pathContains": {
+    "message": "Calea conține"
+  },
+  "optional": {
+    "message": "(opțional)"
+  },
+  "skipSeconds": {
+    "message": "Secunde Săritură"
+  },
+  "addSiteBtn": {
+    "message": "Adaugă Site"
+  },
+  "placeholderLabel": {
+    "message": "ex. Snapchat"
+  },
+  "placeholderHost": {
+    "message": "ex. snapchat.com"
+  },
+  "placeholderPath": {
+    "message": "ex. /story"
+  },
+  "ctxAddSite": {
+    "message": "Adaugă la Arrow Skip"
+  },
+  "hudAutoScrolling": {
+    "message": "Auto Scroll activ..."
+  },
+  "hudAutoScrollOn": {
+    "message": "Auto Scroll PORNIT"
+  },
+  "hudAutoScrollOff": {
+    "message": "Auto Scroll OPRIT"
+  },
+  "errLabelRequired": {
+    "message": "Eticheta este obligatorie"
+  },
+  "errHostRequired": {
+    "message": "Hostname-ul este obligatoriu"
+  },
+  "errSiteExists": {
+    "message": "Acest site este deja în listă"
+  },
+  "seekBack": {
+    "message": "Înapoi"
+  },
+  "seekForward": {
+    "message": "Înainte"
+  },
+  "speedUp": {
+    "message": "Accelerează"
+  },
+  "speedDown": {
+    "message": "Încetinește"
+  },
+  "volumeUp": {
+    "message": "Mai tare"
+  },
+  "volumeDown": {
+    "message": "Mai încet"
+  },
+  "edit": {
+    "message": "Editează"
+  },
+  "remove": {
+    "message": "Elimină"
+  },
+  "editBtn": {
+    "message": "Editează"
+  },
+  "skip": {
+    "message": "Săritură"
+  },
+  "defaultSpeed": {
+    "message": "Viteză implicită"
+  },
+  "editSite": {
+    "message": "Editează site"
+  },
+  "saveChanges": {
+    "message": "Salvează modificările"
+  },
+  "defaultPrefix": {
+    "message": "implicit"
+  }
+}

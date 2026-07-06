@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "Arrow Skip: Ovladač pro Shorts a Reels"
+  },
+  "extDescription": {
+    "message": "Přeskočte, hledejte a ovládejte rychlost na YouTube Shorts, TikTok a Reels. Fixní rychlost. Přesné ovládání šipkami."
+  },
+  "resetBtn": {
+    "message": "Resetovat"
+  },
+  "resetTitle": {
+    "message": "Obnovit výchozí"
+  },
+  "headerSub": {
+    "message": "← → hledat · rychlost · hlasitost"
+  },
+  "tabSites": {
+    "message": "🎬 Stránky"
+  },
+  "tabShortcuts": {
+    "message": "⌨️ Zkratky"
+  },
+  "tabAdd": {
+    "message": "✚ Přidat"
+  },
+  "autoScroll": {
+    "message": "Auto posuv"
+  },
+  "autoScrollSub": {
+    "message": "Další video po skončení"
+  },
+  "defaultSkip": {
+    "message": "Výchozí skok"
+  },
+  "perKeyPress": {
+    "message": "na stisk klávesy"
+  },
+  "scInstructions": {
+    "message": "Klikněte na klávesu a stiskněte kombinaci"
+  },
+  "speedStep": {
+    "message": "Krok rychlosti"
+  },
+  "speedStepSub": {
+    "message": "Změna na jeden stisk"
+  },
+  "maxSpeed": {
+    "message": "Max rychlost"
+  },
+  "maxSpeedSub": {
+    "message": "Rychlost je omezena na tuto hodnotu (min 1×)"
+  },
+  "volumeStep": {
+    "message": "Krok hlasitosti"
+  },
+  "addTabTitle": {
+    "message": "Přidat novou stránku"
+  },
+  "cancel": {
+    "message": "Zrušit"
+  },
+  "label": {
+    "message": "Štítek"
+  },
+  "hostname": {
+    "message": "Doména"
+  },
+  "pathContains": {
+    "message": "Cesta obsahuje"
+  },
+  "optional": {
+    "message": "(volitelné)"
+  },
+  "skipSeconds": {
+    "message": "Sekundy skoku"
+  },
+  "addSiteBtn": {
+    "message": "Přidat stránku"
+  },
+  "placeholderLabel": {
+    "message": "např. Snapchat"
+  },
+  "placeholderHost": {
+    "message": "např. snapchat.com"
+  },
+  "placeholderPath": {
+    "message": "např. /story"
+  },
+  "ctxAddSite": {
+    "message": "Přidat do Arrow Skip"
+  },
+  "hudAutoScrolling": {
+    "message": "Automatický posuv..."
+  },
+  "hudAutoScrollOn": {
+    "message": "Auto posuv ZAPNUT"
+  },
+  "hudAutoScrollOff": {
+    "message": "Auto posuv VYPNUT"
+  },
+  "errLabelRequired": {
+    "message": "Štítek je povinný"
+  },
+  "errHostRequired": {
+    "message": "Doména je povinná"
+  },
+  "errSiteExists": {
+    "message": "Tato stránka již je v seznamu"
+  },
+  "seekBack": {
+    "message": "Zpět"
+  },
+  "seekForward": {
+    "message": "Vpřed"
+  },
+  "speedUp": {
+    "message": "Zrychlit"
+  },
+  "speedDown": {
+    "message": "Zpomalit"
+  },
+  "volumeUp": {
+    "message": "Zesílit"
+  },
+  "volumeDown": {
+    "message": "Zeslabit"
+  },
+  "edit": {
+    "message": "Upravit"
+  },
+  "remove": {
+    "message": "Odebrat"
+  },
+  "editBtn": {
+    "message": "Upravit"
+  },
+  "skip": {
+    "message": "Skok"
+  },
+  "defaultSpeed": {
+    "message": "Výchozí rychlost"
+  },
+  "editSite": {
+    "message": "Upravit stránku"
+  },
+  "saveChanges": {
+    "message": "Uložit změny"
+  },
+  "defaultPrefix": {
+    "message": "výchozí"
+  }
+}

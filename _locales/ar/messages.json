@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "Arrow Skip: متحكم Shorts و Reels"
+  },
+  "extDescription": {
+    "message": "تخطي، بحث، والتحكم في السرعة على YouTube Shorts و TikTok و Reels. سرعة ثابتة. تحكم دقيق بمفاتيح الأسهم."
+  },
+  "resetBtn": {
+    "message": "إعادة تعيين"
+  },
+  "resetTitle": {
+    "message": "إعادة التعيين للافتراضي"
+  },
+  "headerSub": {
+    "message": "← → بحث · سرعة · اختصارات الصوت"
+  },
+  "tabSites": {
+    "message": "🎬 المواقع"
+  },
+  "tabShortcuts": {
+    "message": "⌨️ الاختصارات"
+  },
+  "tabAdd": {
+    "message": "✚ إضافة موقع"
+  },
+  "autoScroll": {
+    "message": "تمرير تلقائي"
+  },
+  "autoScrollSub": {
+    "message": "الفيديو التالي عند انتهاء الحالي"
+  },
+  "defaultSkip": {
+    "message": "تخطي افتراضي"
+  },
+  "perKeyPress": {
+    "message": "لكل ضغطة مفتاح"
+  },
+  "scInstructions": {
+    "message": "انقر على مفتاح ثم اضغط على المجموعة المطلوبة"
+  },
+  "speedStep": {
+    "message": "خطوة السرعة"
+  },
+  "speedStepSub": {
+    "message": "القيمة المضافة/المطروحة لكل ضغطة"
+  },
+  "maxSpeed": {
+    "message": "أقصى سرعة"
+  },
+  "maxSpeedSub": {
+    "message": "الحد الأقصى للسرعة (الأدنى 1×)"
+  },
+  "volumeStep": {
+    "message": "خطوة الصوت"
+  },
+  "addTabTitle": {
+    "message": "إضافة موقع جديد"
+  },
+  "cancel": {
+    "message": "إلغاء"
+  },
+  "label": {
+    "message": "تسمية"
+  },
+  "hostname": {
+    "message": "اسم المضيف"
+  },
+  "pathContains": {
+    "message": "المسار يحتوي على"
+  },
+  "optional": {
+    "message": "(اختياري)"
+  },
+  "skipSeconds": {
+    "message": "ثواني التخطي"
+  },
+  "addSiteBtn": {
+    "message": "إضافة موقع"
+  },
+  "placeholderLabel": {
+    "message": "مثال: سناب شات"
+  },
+  "placeholderHost": {
+    "message": "مثال: snapchat.com"
+  },
+  "placeholderPath": {
+    "message": "مثال: /story"
+  },
+  "ctxAddSite": {
+    "message": "إضافة إلى Arrow Skip"
+  },
+  "hudAutoScrolling": {
+    "message": "تمرير تلقائي..."
+  },
+  "hudAutoScrollOn": {
+    "message": "تشغيل التمرير التلقائي"
+  },
+  "hudAutoScrollOff": {
+    "message": "إيقاف التمرير التلقائي"
+  },
+  "errLabelRequired": {
+    "message": "التسمية مطلوبة"
+  },
+  "errHostRequired": {
+    "message": "اسم المضيف مطلوب"
+  },
+  "errSiteExists": {
+    "message": "هذا الموقع موجود بالفعل في القائمة"
+  },
+  "seekBack": {
+    "message": "رجوع"
+  },
+  "seekForward": {
+    "message": "تقديم"
+  },
+  "speedUp": {
+    "message": "تسريع"
+  },
+  "speedDown": {
+    "message": "تبطيء"
+  },
+  "volumeUp": {
+    "message": "رفع الصوت"
+  },
+  "volumeDown": {
+    "message": "خفض الصوت"
+  },
+  "edit": {
+    "message": "تعديل"
+  },
+  "remove": {
+    "message": "إزالة"
+  },
+  "editBtn": {
+    "message": "تعديل"
+  },
+  "skip": {
+    "message": "تخطي"
+  },
+  "defaultSpeed": {
+    "message": "السرعة الافتراضية"
+  },
+  "editSite": {
+    "message": "تعديل الموقع"
+  },
+  "saveChanges": {
+    "message": "حفظ التغييرات"
+  },
+  "defaultPrefix": {
+    "message": "افتراضي"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "Arrow Skip: Pengontrol Shorts & Reels"
+  },
+  "extDescription": {
+    "message": "Lompati, cari, dan kontrol kecepatan pada YouTube Shorts, TikTok & Reels. Kecepatan tetap. Kontrol tombol panah yang presisi."
+  },
+  "resetBtn": {
+    "message": "Reset"
+  },
+  "resetTitle": {
+    "message": "Reset ke default"
+  },
+  "headerSub": {
+    "message": "← → cari · kecepatan · volume"
+  },
+  "tabSites": {
+    "message": "🎬 Situs"
+  },
+  "tabShortcuts": {
+    "message": "⌨️ Pintasan"
+  },
+  "tabAdd": {
+    "message": "✚ Tambah Situs"
+  },
+  "autoScroll": {
+    "message": "Gulir Otomatis"
+  },
+  "autoScrollSub": {
+    "message": "Video berikutnya saat selesai"
+  },
+  "defaultSkip": {
+    "message": "Lompatan Default"
+  },
+  "perKeyPress": {
+    "message": "per tekan tombol"
+  },
+  "scInstructions": {
+    "message": "Klik lencana tombol lalu tekan kombinasi apa pun"
+  },
+  "speedStep": {
+    "message": "Langkah Kecepatan"
+  },
+  "speedStepSub": {
+    "message": "Jumlah yang ditambah/dikurang per tekan"
+  },
+  "maxSpeed": {
+    "message": "Kecepatan Maks"
+  },
+  "maxSpeedSub": {
+    "message": "Batas kecepatan (min 1×)"
+  },
+  "volumeStep": {
+    "message": "Langkah Volume"
+  },
+  "addTabTitle": {
+    "message": "Tambah Situs Baru"
+  },
+  "cancel": {
+    "message": "Batal"
+  },
+  "label": {
+    "message": "Label"
+  },
+  "hostname": {
+    "message": "Nama Host"
+  },
+  "pathContains": {
+    "message": "Jalur mengandung"
+  },
+  "optional": {
+    "message": "(opsional)"
+  },
+  "skipSeconds": {
+    "message": "Detik Lompatan"
+  },
+  "addSiteBtn": {
+    "message": "Tambah Situs"
+  },
+  "placeholderLabel": {
+    "message": "mis. Snapchat"
+  },
+  "placeholderHost": {
+    "message": "mis. snapchat.com"
+  },
+  "placeholderPath": {
+    "message": "mis. /story"
+  },
+  "ctxAddSite": {
+    "message": "Tambah ke Arrow Skip"
+  },
+  "hudAutoScrolling": {
+    "message": "Menggulir Otomatis..."
+  },
+  "hudAutoScrollOn": {
+    "message": "Gulir Otomatis AKTIF"
+  },
+  "hudAutoScrollOff": {
+    "message": "Gulir Otomatis MATI"
+  },
+  "errLabelRequired": {
+    "message": "Label diperlukan"
+  },
+  "errHostRequired": {
+    "message": "Nama host diperlukan"
+  },
+  "errSiteExists": {
+    "message": "Situs ini sudah ada dalam daftar"
+  },
+  "seekBack": {
+    "message": "Mundur"
+  },
+  "seekForward": {
+    "message": "Maju"
+  },
+  "speedUp": {
+    "message": "Percepat"
+  },
+  "speedDown": {
+    "message": "Perlambat"
+  },
+  "volumeUp": {
+    "message": "Besarkan Suara"
+  },
+  "volumeDown": {
+    "message": "Kecilkan Suara"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "remove": {
+    "message": "Hapus"
+  },
+  "editBtn": {
+    "message": "Edit"
+  },
+  "skip": {
+    "message": "Lompat"
+  },
+  "defaultSpeed": {
+    "message": "Kecepatan Default"
+  },
+  "editSite": {
+    "message": "Edit Situs"
+  },
+  "saveChanges": {
+    "message": "Simpan Perubahan"
+  },
+  "defaultPrefix": {
+    "message": "default"
+  }
+}

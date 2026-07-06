@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arrow Skip</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body style="width:400px;min-height:420px;max-height:580px;overflow-y:auto;background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;">
+
+  <!-- ── Header ── -->
+  <header style="background:var(--surface);border-bottom:1px solid var(--border);" class="px-4 py-3 flex items-center gap-3 sticky top-0 z-10">
+    <img src="../icons/icon128.png" class="w-8 h-8 animate-pulse-glow object-contain" alt="Logo" />
+    <div class="flex-1">
+      <h1 class="text-sm font-bold" style="background:linear-gradient(90deg,var(--text) 0%,#fb923c 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;" data-i18n="extName">Arrow Skip</h1>
+      <p class="text-xs" style="color:var(--muted)" data-i18n="headerSub">← → seek · speed · volume shortcuts</p>
+    </div>
+    <button id="reset-btn" data-i18n-title="resetTitle" data-i18n="resetBtn" class="text-xs px-2 py-1 rounded-lg transition-all duration-150 hover:opacity-80" style="border:1px solid var(--border);color:var(--muted);background:var(--surface2);">Reset</button>
+  </header>
+
+  <!-- ── Tabs ── -->
+  <div style="background:var(--surface);border-bottom:1px solid var(--border);" class="relative">
+    <div class="flex">
+      <button data-tab="sites"     class="tab-btn active flex-1 text-xs font-semibold py-2.5 transition-colors" style="color:var(--muted)" data-i18n="tabSites">🎬 Sites</button>
+      <button data-tab="shortcuts" class="tab-btn flex-1 text-xs font-semibold py-2.5 transition-colors" style="color:var(--muted)" data-i18n="tabShortcuts">⌨️ Shortcuts</button>
+      <button data-tab="add"       class="tab-btn flex-1 text-xs font-semibold py-2.5 transition-colors" style="color:var(--muted)" data-i18n="tabAdd">✚ Add Site</button>
+    </div>
+    <div id="tab-line" class="tab-indicator absolute bottom-0 h-0.5 rounded-full" style="width:33.33%;transform:translateX(0)"></div>
+  </div>
+
+  <!-- ── Tab: Sites ── -->
+  <div id="tab-sites" class="tab-panel p-4 flex flex-col gap-2">
+
+    <!-- Auto Scroll -->
+    <div class="rounded-xl p-3 flex items-center justify-between" style="background:var(--surface);border:1px solid var(--border)">
+      <div class="flex flex-col">
+        <span class="text-xs font-semibold uppercase tracking-wide" style="color:var(--muted)" data-i18n="autoScroll">Auto Scroll</span>
+        <span class="text-[10px]" style="color:var(--muted)" data-i18n="autoScrollSub">Next video when current ends</span>
+      </div>
+      <label class="toggle relative w-8 h-5 flex-shrink-0 cursor-pointer">
+        <input type="checkbox" id="auto-scroll-toggle" class="toggle-check sr-only" />
+        <span class="toggle-track block w-full h-full rounded-full" style="background:var(--surface2)">
+          <span class="toggle-thumb absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white shadow"></span>
+        </span>
+      </label>
+    </div>
+    <!-- Site cards injected here -->
+    <div id="sites-list" class="flex flex-col gap-2"></div>
+    <!-- Default skip -->
+    <div class="rounded-xl p-3" style="background:var(--surface);border:1px solid var(--border)">
+      <div class="flex items-center justify-between mb-2.5">
+        <span class="text-xs font-semibold uppercase tracking-wide" style="color:var(--muted)" data-i18n="defaultSkip">Default Skip</span>
+        <span class="text-xs" style="color:var(--muted)" data-i18n="perKeyPress">per arrow key press</span>
+      </div>
+      <div id="default-skip-stepper"></div>
+    </div>
+  </div>
+
+  <!-- ── Tab: Shortcuts ── -->
+  <div id="tab-shortcuts" class="tab-panel p-4 flex flex-col gap-3 hidden">
+    <!-- Shortcut rows -->
+     <p class="text-xs text-center py-1" style="color:var(--muted)" data-i18n="scInstructions">Click a key badge then press any combination</p>
+    <div id="sc-list" class="flex flex-col gap-2"></div>
+    
+    <!-- Speed step -->
+    <div class="rounded-xl p-3" style="background:var(--surface);border:1px solid var(--border)">
+      <div class="flex items-center justify-between mb-2">
+        <span class="text-xs font-semibold uppercase tracking-wide" style="color:var(--muted)" data-i18n="speedStep">Speed Step</span>
+        <span id="speed-badge" class="text-xs font-bold px-2 py-0.5 rounded-full" style="background:rgba(249,115,22,0.15);color:#fdba74">0.25×</span>
+      </div>
+      <input type="range" id="speed-step" class="svs-slider" min="0.05" max="2" step="0.05" value="0.25" />
+      <p class="text-xs mt-1.5" style="color:var(--muted)" data-i18n="speedStepSub">Amount added/subtracted per key press</p>
+    </div>
+    <!-- Max Speed -->
+    <div class="rounded-xl p-3" style="background:var(--surface);border:1px solid var(--border)">
+      <div class="flex items-center justify-between mb-2">
+        <span class="text-xs font-semibold uppercase tracking-wide" style="color:var(--muted)" data-i18n="maxSpeed">Max Speed</span>
+        <span id="max-speed-badge" class="text-xs font-bold px-2 py-0.5 rounded-full" style="background:rgba(249,115,22,0.15);color:#fdba74">8×</span>
+      </div>
+      <input type="range" id="max-speed" class="svs-slider" min="1" max="16" step="0.5" value="8" />
+      <p class="text-xs mt-1.5" style="color:var(--muted)" data-i18n="maxSpeedSub">Speed caps at this value (min 1×)</p>
+    </div>
+    <!-- Volume step -->
+    <div class="rounded-xl p-3" style="background:var(--surface);border:1px solid var(--border)">
+      <div class="flex items-center justify-between mb-2">
+        <span class="text-xs font-semibold uppercase tracking-wide" style="color:var(--muted)" data-i18n="volumeStep">Volume Step</span>
+        <span id="vol-badge" class="text-xs font-bold px-2 py-0.5 rounded-full" style="background:rgba(249,115,22,0.15);color:#fdba74">10%</span>
+      </div>
+      <input type="range" id="vol-step" class="svs-slider" min="1" max="25" step="1" value="10" />
+    </div>
+
+  </div>
+
+  <!-- ── Tab: Add Site ── -->
+  <div id="tab-add" class="tab-panel p-4 flex flex-col gap-3 hidden">
+    <div class="rounded-xl p-4 flex flex-col gap-3" style="background:var(--surface);border:1px solid var(--border)">
+      <div class="flex items-center justify-between">
+        <h2 id="add-tab-title" class="text-xs font-bold uppercase tracking-wider" style="color:#f97316" data-i18n="addTabTitle">Add New Site</h2>
+        <button id="add-cancel-btn" class="hidden text-[10px] font-bold uppercase tracking-wide px-2 py-1 rounded-md transition-all duration-150 hover:opacity-80" 
+          style="background:var(--surface2);border:1px solid var(--border);color:var(--muted)" data-i18n="cancel">Cancel</button>
+      </div>
+      <div>
+        <label class="text-xs font-semibold uppercase tracking-wide block mb-1.5" style="color:var(--muted)" data-i18n="label">Label</label>
+        <input id="new-label" type="text" placeholder="e.g. Snapchat" data-i18n-placeholder="placeholderLabel"
+          class="w-full text-sm px-3 py-2 rounded-lg outline-none transition-all duration-150"
+          style="background:var(--surface2);border:1px solid var(--border);color:var(--text)" />
+      </div>
+      <div>
+        <label class="text-xs font-semibold uppercase tracking-wide block mb-1.5" style="color:var(--muted)" data-i18n="hostname">Hostname</label>
+        <input id="new-hostname" type="text" placeholder="e.g. snapchat.com" data-i18n-placeholder="placeholderHost"
+          class="w-full text-sm px-3 py-2 rounded-lg outline-none transition-all duration-150"
+          style="background:var(--surface2);border:1px solid var(--border);color:var(--text)" />
+      </div>
+      <div>
+        <label class="text-xs font-semibold uppercase tracking-wide block mb-1.5" style="color:var(--muted)">
+          <span data-i18n="pathContains">Path contains</span> <span style="color:var(--muted);font-weight:400" data-i18n="optional">(optional)</span>
+        </label>
+        <input id="new-path" type="text" placeholder="e.g. /story" data-i18n-placeholder="placeholderPath"
+          class="w-full text-sm px-3 py-2 rounded-lg outline-none transition-all duration-150"
+          style="background:var(--surface2);border:1px solid var(--border);color:var(--text)" />
+      </div>
+      <div class="flex gap-4">
+        <div class="flex-1">
+          <label class="text-xs font-semibold uppercase tracking-wide block mb-1.5" style="color:var(--muted)" data-i18n="skipSeconds">Skip Seconds</label>
+          <div id="new-skip-stepper"></div>
+        </div>
+        <div class="flex-1">
+          <label class="text-xs font-semibold uppercase tracking-wide block mb-1.5" style="color:var(--muted)" data-i18n="speedStep">Speed Step</label>
+          <div id="new-speed-stepper"></div>
+        </div>
+      </div>
+      <button id="add-site-btn" class="w-full py-2.5 rounded-lg text-sm font-semibold text-white transition-all duration-150 hover:opacity-90 active:scale-95"
+        style="background:linear-gradient(135deg,#f97316,#ea580c);box-shadow:0 2px 12px rgba(249,115,22,0.4)" data-i18n="addSiteBtn">
+        Add Site
+      </button>
+      <div id="add-error" class="hidden text-xs rounded-lg px-3 py-2" style="background:rgba(239,68,68,0.1);color:#ef4444;border:1px solid rgba(239,68,68,0.2)"></div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

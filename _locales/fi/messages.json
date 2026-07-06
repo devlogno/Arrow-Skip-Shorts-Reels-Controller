@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "Arrow Skip: Shorts & Reels -ohjain"
+  },
+  "extDescription": {
+    "message": "Hyppää, etsi ja säädä nopeutta YouTube Shortsissa, TikTokissa ja Reelsissä. Lukittu nopeus. Tarkka ohjaus nuolinäppäimillä."
+  },
+  "resetBtn": {
+    "message": "Nollaa"
+  },
+  "resetTitle": {
+    "message": "Palauta oletukset"
+  },
+  "headerSub": {
+    "message": "← → etsi · nopeus · äänenvoimakkuus"
+  },
+  "tabSites": {
+    "message": "🎬 Sivustot"
+  },
+  "tabShortcuts": {
+    "message": "⌨️ Pikanäppäimet"
+  },
+  "tabAdd": {
+    "message": "✚ Lisää"
+  },
+  "autoScroll": {
+    "message": "Automaattinen vieritys"
+  },
+  "autoScrollSub": {
+    "message": "Seuraava video lopussa"
+  },
+  "defaultSkip": {
+    "message": "Oletushyppy"
+  },
+  "perKeyPress": {
+    "message": "per painallus"
+  },
+  "scInstructions": {
+    "message": "Klikkaa näppäintä ja paina uusi yhdistelmä"
+  },
+  "speedStep": {
+    "message": "Nopeusaskel"
+  },
+  "speedStepSub": {
+    "message": "Muutos per painallus"
+  },
+  "maxSpeed": {
+    "message": "Maksiminopeus"
+  },
+  "maxSpeedSub": {
+    "message": "Nopeuden yläraja (väh. 1×)"
+  },
+  "volumeStep": {
+    "message": "Äänenvoimakkuusaskel"
+  },
+  "addTabTitle": {
+    "message": "Lisää uusi sivusto"
+  },
+  "cancel": {
+    "message": "Peruuta"
+  },
+  "label": {
+    "message": "Nimi"
+  },
+  "hostname": {
+    "message": "Verkkonimi"
+  },
+  "pathContains": {
+    "message": "Polku sisältää"
+  },
+  "optional": {
+    "message": "(valinnainen)"
+  },
+  "skipSeconds": {
+    "message": "Hyppysekunnit"
+  },
+  "addSiteBtn": {
+    "message": "Lisää sivusto"
+  },
+  "placeholderLabel": {
+    "message": "esim. Snapchat"
+  },
+  "placeholderHost": {
+    "message": "esim. snapchat.com"
+  },
+  "placeholderPath": {
+    "message": "esim. /story"
+  },
+  "ctxAddSite": {
+    "message": "Lisää Arrow Skipiin"
+  },
+  "hudAutoScrolling": {
+    "message": "Vieritetään automaattisesti..."
+  },
+  "hudAutoScrollOn": {
+    "message": "Automaattinen vieritys PÄÄLLÄ"
+  },
+  "hudAutoScrollOff": {
+    "message": "Automaattinen vieritys POIS"
+  },
+  "errLabelRequired": {
+    "message": "Nimi vaaditaan"
+  },
+  "errHostRequired": {
+    "message": "Verkkonimi vaaditaan"
+  },
+  "errSiteExists": {
+    "message": "Sivusto on jo listalla"
+  },
+  "seekBack": {
+    "message": "Taaksepäin"
+  },
+  "seekForward": {
+    "message": "Eteenpäin"
+  },
+  "speedUp": {
+    "message": "Lisää nopeutta"
+  },
+  "speedDown": {
+    "message": "Vähennä nopeutta"
+  },
+  "volumeUp": {
+    "message": "Lisää ääntä"
+  },
+  "volumeDown": {
+    "message": "Vähennä ääntä"
+  },
+  "edit": {
+    "message": "Muokkaa"
+  },
+  "remove": {
+    "message": "Poista"
+  },
+  "editBtn": {
+    "message": "Muokkaa"
+  },
+  "skip": {
+    "message": "Hyppy"
+  },
+  "defaultSpeed": {
+    "message": "Oletusnopeus"
+  },
+  "editSite": {
+    "message": "Muokkaa sivustoa"
+  },
+  "saveChanges": {
+    "message": "Tallenna muutokset"
+  },
+  "defaultPrefix": {
+    "message": "oletus"
+  }
+}
