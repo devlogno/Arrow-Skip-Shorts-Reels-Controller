@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "Arrow Skip: ตัวควบคุม Shorts & Reels"
+  },
+  "extDescription": {
+    "message": "ข้าม, เลื่อน และควบคุมความเร็วบน YouTube Shorts, TikTok & Reels ล็อกความเร็วคงที่ ควบคุมด้วยปุ่มลูกศรที่แม่นยำ"
+  },
+  "resetBtn": {
+    "message": "รีเซ็ต"
+  },
+  "resetTitle": {
+    "message": "รีเซ็ตเป็นค่าเริ่มต้น"
+  },
+  "headerSub": {
+    "message": "← → เลื่อน · ความเร็ว · ระดับเสียง"
+  },
+  "tabSites": {
+    "message": "🎬 เว็บไซต์"
+  },
+  "tabShortcuts": {
+    "message": "⌨️ ทางลัด"
+  },
+  "tabAdd": {
+    "message": "✚ เพิ่มเว็บไซต์"
+  },
+  "autoScroll": {
+    "message": "เลื่อนอัตโนมัติ"
+  },
+  "autoScrollSub": {
+    "message": "เล่นวิดีโอถัดไปเมื่อจบ"
+  },
+  "defaultSkip": {
+    "message": "การข้ามเริ่มต้น"
+  },
+  "perKeyPress": {
+    "message": "ต่อการกดปุ่ม"
+  },
+  "scInstructions": {
+    "message": "คลิกที่ปุ่มแล้วกดคีย์ผสมที่ต้องการ"
+  },
+  "speedStep": {
+    "message": "ขั้นตอนความเร็ว"
+  },
+  "speedStepSub": {
+    "message": "จำนวนที่เพิ่ม/ลดต่อการกด"
+  },
+  "maxSpeed": {
+    "message": "ความเร็วสูงสุด"
+  },
+  "maxSpeedSub": {
+    "message": "จำกัดความเร็วที่ค่านี้ (ขั้นต่ำ 1×)"
+  },
+  "volumeStep": {
+    "message": "ขั้นตอนระดับเสียง"
+  },
+  "addTabTitle": {
+    "message": "เพิ่มเว็บไซต์ใหม่"
+  },
+  "cancel": {
+    "message": "ยกเลิก"
+  },
+  "label": {
+    "message": "ชื่อเรียก"
+  },
+  "hostname": {
+    "message": "ชื่อโฮสต์"
+  },
+  "pathContains": {
+    "message": "เส้นทางมีคำว่า"
+  },
+  "optional": {
+    "message": "(ไม่บังคับ)"
+  },
+  "skipSeconds": {
+    "message": "วินาทีที่ข้าม"
+  },
+  "addSiteBtn": {
+    "message": "เพิ่มเว็บไซต์"
+  },
+  "placeholderLabel": {
+    "message": "เช่น Snapchat"
+  },
+  "placeholderHost": {
+    "message": "เช่น snapchat.com"
+  },
+  "placeholderPath": {
+    "message": "เช่น /story"
+  },
+  "ctxAddSite": {
+    "message": "เพิ่มใน Arrow Skip"
+  },
+  "hudAutoScrolling": {
+    "message": "กำลังเลื่อนอัตโนมัติ..."
+  },
+  "hudAutoScrollOn": {
+    "message": "เปิดการเลื่อนอัตโนมัติ"
+  },
+  "hudAutoScrollOff": {
+    "message": "ปิดการเลื่อนอัตโนมัติ"
+  },
+  "errLabelRequired": {
+    "message": "ต้องระบุชื่อเรียก"
+  },
+  "errHostRequired": {
+    "message": "ต้องระบุชื่อโฮสต์"
+  },
+  "errSiteExists": {
+    "message": "เว็บไซต์นี้มีอยู่ในรายการแล้ว"
+  },
+  "seekBack": {
+    "message": "ย้อนกลับ"
+  },
+  "seekForward": {
+    "message": "ไปข้างหน้า"
+  },
+  "speedUp": {
+    "message": "เพิ่มความเร็ว"
+  },
+  "speedDown": {
+    "message": "ลดความเร็ว"
+  },
+  "volumeUp": {
+    "message": "เพิ่มเสียง"
+  },
+  "volumeDown": {
+    "message": "ลดเสียง"
+  },
+  "edit": {
+    "message": "แก้ไข"
+  },
+  "remove": {
+    "message": "ลบ"
+  },
+  "editBtn": {
+    "message": "แก้ไข"
+  },
+  "skip": {
+    "message": "ข้าม"
+  },
+  "defaultSpeed": {
+    "message": "ความเร็วเริ่มต้น"
+  },
+  "editSite": {
+    "message": "แก้ไขเว็บไซต์"
+  },
+  "saveChanges": {
+    "message": "บันทึกการเปลี่ยนแปลง"
+  },
+  "defaultPrefix": {
+    "message": "เริ่มต้น"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "Arrow Skip: Pengawal Shorts & Reels"
+  },
+  "extDescription": {
+    "message": "Langkau, cari dan kawal kelajuan pada YouTube Shorts, TikTok & Reels. Kelajuan tetap. Kawalan kekunci anak panah yang tepat."
+  },
+  "resetBtn": {
+    "message": "Set Semula"
+  },
+  "resetTitle": {
+    "message": "Set semula ke asal"
+  },
+  "headerSub": {
+    "message": "← → cari · kelajuan · pintasan bunyi"
+  },
+  "tabSites": {
+    "message": "🎬 Laman"
+  },
+  "tabShortcuts": {
+    "message": "⌨️ Pintasan"
+  },
+  "tabAdd": {
+    "message": "✚ Tambah Laman"
+  },
+  "autoScroll": {
+    "message": "Tatal Auto"
+  },
+  "autoScrollSub": {
+    "message": "Video seterusnya apabila tamat"
+  },
+  "defaultSkip": {
+    "message": "Langkauan Asal"
+  },
+  "perKeyPress": {
+    "message": "setiap tekan kekunci"
+  },
+  "scInstructions": {
+    "message": "Klik lencana kekunci kemudian tekan mana-mana gabungan"
+  },
+  "speedStep": {
+    "message": "Langkah Kelajuan"
+  },
+  "speedStepSub": {
+    "message": "Jumlah ditambah/ditolak setiap tekan"
+  },
+  "maxSpeed": {
+    "message": "Kelajuan Maks"
+  },
+  "maxSpeedSub": {
+    "message": "Kelajuan dihadkan pada nilai ini (min 1×)"
+  },
+  "volumeStep": {
+    "message": "Langkah Bunyi"
+  },
+  "addTabTitle": {
+    "message": "Tambah Laman Baru"
+  },
+  "cancel": {
+    "message": "Batal"
+  },
+  "label": {
+    "message": "Label"
+  },
+  "hostname": {
+    "message": "Nama Hos"
+  },
+  "pathContains": {
+    "message": "Laluan mengandungi"
+  },
+  "optional": {
+    "message": "(pilihan)"
+  },
+  "skipSeconds": {
+    "message": "Saat Langkau"
+  },
+  "addSiteBtn": {
+    "message": "Tambah Laman"
+  },
+  "placeholderLabel": {
+    "message": "cth. Snapchat"
+  },
+  "placeholderHost": {
+    "message": "cth. snapchat.com"
+  },
+  "placeholderPath": {
+    "message": "cth. /story"
+  },
+  "ctxAddSite": {
+    "message": "Tambah ke Arrow Skip"
+  },
+  "hudAutoScrolling": {
+    "message": "Menatal Auto..."
+  },
+  "hudAutoScrollOn": {
+    "message": "Tatal Auto HIDUP"
+  },
+  "hudAutoScrollOff": {
+    "message": "Tatal Auto MATI"
+  },
+  "errLabelRequired": {
+    "message": "Label diperlukan"
+  },
+  "errHostRequired": {
+    "message": "Nama hos diperlukan"
+  },
+  "errSiteExists": {
+    "message": "Laman ini sudah ada dalam senarai"
+  },
+  "seekBack": {
+    "message": "Balik"
+  },
+  "seekForward": {
+    "message": "Ke Hadapan"
+  },
+  "speedUp": {
+    "message": "Lajukan"
+  },
+  "speedDown": {
+    "message": "Perlahankan"
+  },
+  "volumeUp": {
+    "message": "Kuatkan Bunyi"
+  },
+  "volumeDown": {
+    "message": "Perlahankan Bunyi"
+  },
+  "edit": {
+    "message": "Edit"
+  },
+  "remove": {
+    "message": "Padam"
+  },
+  "editBtn": {
+    "message": "Edit"
+  },
+  "skip": {
+    "message": "Langkau"
+  },
+  "defaultSpeed": {
+    "message": "Kelajuan Asal"
+  },
+  "editSite": {
+    "message": "Edit Laman"
+  },
+  "saveChanges": {
+    "message": "Simpan Perubahan"
+  },
+  "defaultPrefix": {
+    "message": "asal"
+  }
+}

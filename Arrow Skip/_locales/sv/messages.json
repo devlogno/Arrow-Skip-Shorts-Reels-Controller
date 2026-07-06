@@ -1,0 +1,152 @@
+{
+  "extName": {
+    "message": "Arrow Skip: Shorts & Reels Controller"
+  },
+  "extDescription": {
+    "message": "Hoppa, sök och styr hastighet på YouTube Shorts, TikTok & Reels. Fast hastighet. Exakt kontroll med piltangenterna."
+  },
+  "resetBtn": {
+    "message": "Återställ"
+  },
+  "resetTitle": {
+    "message": "Återställ till standard"
+  },
+  "headerSub": {
+    "message": "← → sök · hastighet · volym"
+  },
+  "tabSites": {
+    "message": "🎬 Sajter"
+  },
+  "tabShortcuts": {
+    "message": "⌨️ Genvägar"
+  },
+  "tabAdd": {
+    "message": "✚ Lägg till"
+  },
+  "autoScroll": {
+    "message": "Auto-scroll"
+  },
+  "autoScrollSub": {
+    "message": "Nästa video när nuvarande slutar"
+  },
+  "defaultSkip": {
+    "message": "Standardhopp"
+  },
+  "perKeyPress": {
+    "message": "per tangenttryckning"
+  },
+  "scInstructions": {
+    "message": "Klicka på en tangent och tryck på kombinationen"
+  },
+  "speedStep": {
+    "message": "Hastighetssteg"
+  },
+  "speedStepSub": {
+    "message": "Ändring per tangenttryckning"
+  },
+  "maxSpeed": {
+    "message": "Maxhastighet"
+  },
+  "maxSpeedSub": {
+    "message": "Hastigheten takas vid detta värde (min 1×)"
+  },
+  "volumeStep": {
+    "message": "Volymsteg"
+  },
+  "addTabTitle": {
+    "message": "Lägg till ny sajt"
+  },
+  "cancel": {
+    "message": "Avbryt"
+  },
+  "label": {
+    "message": "Etikett"
+  },
+  "hostname": {
+    "message": "Hostnamn"
+  },
+  "pathContains": {
+    "message": "Sökväg innehåller"
+  },
+  "optional": {
+    "message": "(valfritt)"
+  },
+  "skipSeconds": {
+    "message": "Sekunder att hoppa"
+  },
+  "addSiteBtn": {
+    "message": "Lägg till sajt"
+  },
+  "placeholderLabel": {
+    "message": "t.ex. Snapchat"
+  },
+  "placeholderHost": {
+    "message": "t.ex. snapchat.com"
+  },
+  "placeholderPath": {
+    "message": "t.ex. /story"
+  },
+  "ctxAddSite": {
+    "message": "Lägg till i Arrow Skip"
+  },
+  "hudAutoScrolling": {
+    "message": "Auto-scrollar..."
+  },
+  "hudAutoScrollOn": {
+    "message": "Auto-scroll PÅ"
+  },
+  "hudAutoScrollOff": {
+    "message": "Auto-scroll AV"
+  },
+  "errLabelRequired": {
+    "message": "Etikett krävs"
+  },
+  "errHostRequired": {
+    "message": "Hostnamn krävs"
+  },
+  "errSiteExists": {
+    "message": "Sajten finns redan i listan"
+  },
+  "seekBack": {
+    "message": "Bakåt"
+  },
+  "seekForward": {
+    "message": "Framåt"
+  },
+  "speedUp": {
+    "message": "Öka hastighet"
+  },
+  "speedDown": {
+    "message": "Sänk hastighet"
+  },
+  "volumeUp": {
+    "message": "Höj volym"
+  },
+  "volumeDown": {
+    "message": "Sänk volym"
+  },
+  "edit": {
+    "message": "Redigera"
+  },
+  "remove": {
+    "message": "Ta bort"
+  },
+  "editBtn": {
+    "message": "Redigera"
+  },
+  "skip": {
+    "message": "Hopp"
+  },
+  "defaultSpeed": {
+    "message": "Standardhastighet"
+  },
+  "editSite": {
+    "message": "Redigera sajt"
+  },
+  "saveChanges": {
+    "message": "Spara ändringar"
+  },
+  "defaultPrefix": {
+    "message": "standard"
+  }
+}
